@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="wrapper">
+        <Section class="nav">
             <!--Navigation Bar-->
             <nav>
                 <ul>
@@ -21,24 +21,135 @@
                     <li><a href="#">Cart</a></li>
                 </ul>
             </nav>
-        </div>
+        </Section>
     </header>
 
+    <section class="hero">
+        <!--Hero Images-->
+        <div class="hero-inner">
+            <h1>WANT A DOG?</h1>
+            <h2>Well you're in the right place!</h2>
+            <a href="https://example.com/" class="btn">Buy Now</a>
+        </div>
+    </section>
     <div class="wrapper">
-        <section id="hero">
-            <!--Hero Images-->
-        </section>
 
         <section id="emailGoblin" class="wrapper">
-            <!--Email grabber "Newsletter Subscription"-->
-        </section>
+            <!--Email Goblin-->
+            <form action="action_page.php">
+                <div class="container">
+                    <h2>15% Discount</h2>
+                    <p>Fill out the information below to recieve your discount!</p>
+                </div>
 
-        <section id="productDisplay" class="wrapper">
+                <div class="container" style="background-color:white">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                    </label>
+                </div>
+
+                <div class="container">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </section>
+        <!--Sidebar-->
+        <div class="wrapper">
+            <section id="sidebar">
+                <!--Sidebar Text-->
+                <h1>Dog Facts</h1>
+                <p>The earliest remains generally accepted to be those of a domesticated dog were discovered in
+                    Bonn-Oberkassel, Germany. Contextual, isotopic, genetic, and morphological evidence shows that this
+                    dog was not a local wolf.[20] The dog was dated to 14,223 years ago and was found buried along with
+                    a man and a woman, all three having been sprayed with red hematite powder and buried under large,
+                    thick basalt blocks. The dog had died of canine distemper.[21] Earlier remains dating back to 30,000
+                    years ago have been described as Paleolithic dogs, but their status as dogs or wolves remains
+                    debated[22] because considerable morphological diversity existed among wolves during the Late
+                    Pleistocene.[1]</p>
+                <p>This timing indicates that the dog was the first species to be domesticated[9][8] in the time of
+                    hunter–gatherers,[7] which predates agriculture.[1] DNA sequences show that all ancient and modern
+                    dogs share a common ancestry and descended from an ancient, extinct wolf population which was
+                    distinct from the modern wolf lineage</p>
+                <p>The dog is a classic example of a domestic animal that likely travelled a commensal pathway into
+                    domestication.[22][23] The questions of when and where dogs were first domesticated have taxed
+                    geneticists and archaeologists for decades.[9] Genetic studies suggest a domestication process
+                    commencing over 25,000 years ago, in one or several wolf populations in either Europe, the high
+                    Arctic, or eastern Asia.[10] In 2021, a literature review of the current evidence infers that the
+                    dog was domesticated in Siberia 23,000 years ago by ancient North Siberians, then later dispersed
+                    eastward into the Americas and westward across Eurasia,[20] with dogs likely accompanying the first
+                    humans to inhabit the Americas</p>
+            </section>
+        </div>
+        <section id="main" class="wrapper">
             <!--Product Promotion or Best Selling list-->
+            <div class="panel">
+                <img src="./assets/img1.jpg" class="Dog" alt="Dog" />
+                <h2>Good Boy</h2>
+                <p>Look at the good boy.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img2.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img3.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img1.jpg" class="Dog" alt="Dog" />
+                <h2>Good Boy</h2>
+                <p>Look at the good boy.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img2.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img3.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img1.jpg" class="Dog" alt="Dog" />
+                <h2>Good Boy</h2>
+                <p>Look at the good boy.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img2.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
+            <div class="panel">
+                <img src="./assets/img3.jpg" class="Dog" alt="Dog" />
+                <h2>Good Girl</h2>
+                <p>Look at the good girl.</p>
+                <button>Take me Home</button>
+            </div>
         </section>
 
+        <div class="clear"></div>
         <footer>
             <!--Contact Info & Social Links-->
+            <span>&copy;2023</span>
+            <ul id="menuFooter">
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li>Website by Xavier</li>
+            </ul>
         </footer>
     </div>
 </body>
